@@ -3,29 +3,27 @@ import React from "react";
 
 export default function Footer() {
   return (
-    <footer id="contact-me" className="bottom-auto">
+    <footer className="footer-spacing">
       <h2>CONTACT ME</h2>
-      <ul>
-        <li>
-          <a
-            href="https://www.linkedin.com/in/dan-looten-1917b2178"
-            className="hover-text"
-          >
-            Linkedin
-          </a>
-        </li>
-        <li>
-          <a href="https://github.com/D-Loot/Portfolio" className="hover-text">
-            GitHub
-          </a>
-        </li>
-        <li>
-          <a href="mailto: danwlooten@gmail.com" className="hover-text">
-            Email
-          </a>
-        </li>
-        <li>Phone: (217) 653-8877</li>
-      </ul>
+
+      <a
+        href="https://www.linkedin.com/in/dan-looten-1917b2178"
+        className="hover-text"
+        id="footer-text"
+      >
+        Linkedin
+      </a>
+
+      <a
+        href="https://github.com/D-Loot/Portfolio"
+        className="hover-text"
+        id="footer-text"
+      >
+        GitHub
+      </a>
+
+      <p>Email: danwlooten@gmail.com</p>
+      <p>Phone: (217) 653-8877</p>
     </footer>
   );
 }
