@@ -34,13 +34,13 @@ function NavigationTabs({ currentPage, handlePageChange }) {
 }
 
 NavigationTabs.propTypes = {
-  handler: PropTypes.func.isRequired,
   currentPage: PropTypes.string,
-  handlePageChange: PropTypes.string,
+  handlePageChange: PropTypes.any,
 };
 
 NavigationTabs.defaultProps = {
   currentPage: "Portfolio",
+  handlePageChange: null,
 };
 
 export default NavigationTabs;
