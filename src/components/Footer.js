@@ -11,7 +11,7 @@ export default function Footer() {
         className="hover-text"
         id="footer-text"
       >
-        Linkedin
+        Linkedin Page
       </a>
 
       <a
