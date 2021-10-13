@@ -7,18 +7,21 @@ function NavigationTabs({ currentPage, handlePageChange }) {
       <p
         onClick={() => handlePageChange("About")}
         className={currentPage === "About" ? "clicked" : "hover-text"}
+        id="tab"
       >
         About Me
       </p>
       <p
         onClick={() => handlePageChange("Portfolio")}
         className={currentPage === "Portfolio" ? "clicked" : "hover-text"}
+        id="tab"
       >
         Portfolio
       </p>
       <p
         onClick={() => handlePageChange("Contact")}
         className={currentPage === "Contact" ? "clicked" : "hover-text"}
+        id="tab"
       >
         Contact Me
       </p>
@@ -26,8 +29,9 @@ function NavigationTabs({ currentPage, handlePageChange }) {
         // href="./assets/LOOTEN - RESUME.pdf"
         onClick={() => handlePageChange("Resume")}
         className={currentPage === "Resume" ? "clicked" : "hover-text"}
+        id="tab"
       >
-        Resume
+        Resumé
       </p>
     </div>
   );

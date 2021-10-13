@@ -5,39 +5,54 @@ export default function Resume() {
     <section id="about-me logo" className="content-grid grid-area-2">
       <h2 className="contentTitle resumeTitle">
         <a href="./assets/LOOTEN - RESUME.pdf" target="_blank">
-          Resume PDF
+          Resumé PDF
+        </a>
+      </h2>
+      <h2 className="contentTitle resumeTitle">
+        <a
+          href="https://docs.google.com/document/d/16xvD0Fz1ncAnAxguhnsA10qArZ5y4Qek48ayrvqZojs/edit?usp=sharing"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Resumé Google Doc
         </a>
       </h2>
       <div className="resumeDiv">
         <div>
           <h3 className="resumeListTitle">Languages</h3>
           <ul className="resumeList">
-            <li>React</li>
-            <li>MongoDB</li>
-            <li>ExpressJS</li>
-            <li>NodeJS</li>
-            <li>MySQL</li>
-            <li>JavaScript ES6+</li>
+            <li>Javascript ES6+</li>
             <li>HTML5</li>
             <li>CSS3</li>
             <li>SQL</li>
-            <li>Visual Basic</li>
             <li>Python</li>
+            <li>MySQL</li>
+            <li>Visual Basic</li>
+            <li>MongoDB</li>
+            <li>GraphQL</li>
+            <li>Apollo Server</li>
+            <li>Stripe</li>
           </ul>
         </div>
         <div>
           <h3 className="resumeListTitle">Applications</h3>
           <ul className="resumeList">
             <li>GitHub</li>
-            <li>Heroku</li>
-            <li>MySQL</li>
             <li>VSCode</li>
+            <li>Insomnia</li>
+            <li>Postman</li>
+            <li>Heroku</li>
+            <li>MongoDB Atlas</li>
           </ul>
 
           <h3 className="resumeListTitle">Frameworks</h3>
           <ul className="resumeList">
             <li>BootStrap</li>
             <li>jQuery</li>
+            <li>Express.js</li>
+            <li>Node.js</li>
+            <li>Handlebars.js</li>
+            <li>React</li>
           </ul>
         </div>
       </div>

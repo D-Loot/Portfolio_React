@@ -17,8 +17,8 @@ body {
 
 :root {
   box-sizing: border-box;
-  --med-pad: 10px;
-  font-size: 10px;
+  --med-pad: 16px;
+  font-size: 16px;
 }
 
 body {
@@ -31,7 +31,7 @@ body {
 }
 
 .head-block {
-  background-color: #328be0;
+  background-color: navy;
   color: white;
   height: auto;
   width: 100vw;
@@ -70,16 +70,18 @@ body {
   border-width: 2px;
   padding: 0.15rem;
   border-radius: 0.5rem;
-  color: #ffb63e;
-  border-color: #ffb63e;
+  color: cyan;
+  border-color: cyan;
+  cursor: pointer;
 }
 
 .footer-spacing {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  height: 4rem;
+  height: fit-content;
   align-items: center;
+  padding: 1rem;
 }
 
 #footer-text {
@@ -87,16 +89,16 @@ body {
   border-color: white;
 }
 
-#hover-text:hover {
-  color: #ffb63e;
-  border-color: #ffb63e;
+#footer-text:hover {
+  color: cyan;
+  border-color: cyan;
 }
-/*
-#logo {
-  font-size: 3rem;
-  color: white;
-  z-index: 1;
-} */
+
+#hover-text:hover {
+  color: cyan;
+  border-color: cyan;
+  cursor: pointer;
+}
 
 @media screen and (max-width: 800px) {
   .head-block {
@@ -110,14 +112,14 @@ body {
 
 .head-block h1 {
   font-size: 2.5rem;
-  text-align: left;
+  text-align: center;
   align-self: center;
   margin-top: 0.5rem;
   margin-bottom: 0.75rem;
 }
 
 .contentContainer {
-  background: #61cde9;
+  background: rgba(0, 0, 128, 0.95);
   flex: auto;
 }
 
@@ -138,15 +140,21 @@ body {
   color: inherit;
   border: solid;
   border-width: 2px;
-  border-color: black;
-  color: black;
+  border-color: white;
+  color: white;
   padding: 0.15rem;
   border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+#tab {
+  width: 20%;
+  align-content: center;
 }
 
 .hover-text:hover {
-  color: #ffb63e;
-  border-color: #ffb63e;
+  color: cyan;
+  border-color: cyan;
 }
 .Background-Image {
   height: auto;
@@ -156,12 +164,12 @@ body {
 
 .grid-area-1 {
   margin: 3vh 10vw 3vh;
-  display: grid;
+  display: flex;
   grid-template-columns: 50vw 30vw;
   grid-template-rows: 1fr;
   gap: 0px 0px;
   background-color: white;
-  box-shadow: 0 0 10px 10px white;
+  box-shadow: 0 0 20px 20px white;
 }
 
 .grid-area-2 {
@@ -232,9 +240,11 @@ body {
   display: inline-block;
   border: white solid 1px;
   padding: 2px;
+  margin: 2px;
+  border-radius: 0.7rem;
 }
 .link-border p:hover {
-  border-color: #ffb63e;
+  border-color: cyan;
 }
 
 .App-Info-inner {
@@ -274,6 +284,18 @@ body {
     height: 275px;
     border-radius: 1rem;
   }
+  .App-Info-Text {
+    background-color: hsl(209, 85%, 30%);
+    color: white;
+    transform: rotateY(180deg);
+    border-radius: 1rem;
+    font-size: 1rem;
+  }
+}
+
+#about-me {
+  flex-wrap: wrap-reverse;
+  text-align-last: center;
 }
 
 .App-Info-Img {
@@ -282,14 +304,19 @@ body {
 }
 
 .App-Info-Text {
-  background-color: #61cde9;
+  background-color: hsl(209, 85%, 30%);
   color: white;
   transform: rotateY(180deg);
   border-radius: 1rem;
+  font-size: 0.8rem;
+}
+
+.App-Title {
+  font-size: 1.25rem;
 }
 
 footer {
-  background-color: #9bd093;
+  background-color: navy;
   color: white;
   height: 5vh;
   width: 100vw;
@@ -303,30 +330,6 @@ footer {
 footer h2 {
   align-self: center;
   justify-self: center;
-}
-
-footer ul {
-  list-style-type: none;
-  text-align: center;
-  align-content: center;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  margin: 0px 10vw 0px 0px;
-  flex-wrap: wrap;
-}
-
-footer ul li {
-  display: inline;
-}
-
-footer ul li a {
-  color: inherit;
-  text-decoration: inherit;
-}
-
-footer ul li a:hover {
-  color: #ffb63e;
 }
 
 /* Image Cycler */
@@ -402,5 +405,9 @@ footer ul li a:hover {
     padding-bottom: 7rem;
     padding-left: 0.5rem;
     padding-right: 0.5rem;
+  }
+  #about-me {
+    flex-wrap: nowrap;
+    text-align-last: left;
   }
 }

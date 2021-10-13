@@ -14,7 +14,7 @@ export default function WeatherDashboard() {
           />
         </div>
         <div className="App-Info-Text">
-          <h1>Weather Dashboard</h1>
+          <h1 className="App-Title">Weather Dashboard</h1>
           <p>Current and 5 day weather forecast app for any given city.</p>
           <p>Skills:</p>
           <div className="skillsTextDiv">

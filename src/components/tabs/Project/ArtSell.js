@@ -13,11 +13,10 @@ export default function ArtSell() {
           />
         </div>
         <div className="App-Info-Text">
-          <h1>ArtSell Project</h1>
+          <h1 className="App-Title">ArtSell Project</h1>
           <p>
-            An art E-Commerce site. Users are able to sign in, add artwork to
-            the cart database and simulate the checkout portion of the
-            transaction using Stripe.
+            An art E-Commerce site. Users can sign in, add artwork to a cart and
+            simulate a checkout transaction using Stripe.
           </p>
           <p>Skills:</p>
           <div className="skillsTextDiv">

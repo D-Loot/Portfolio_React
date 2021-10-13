@@ -13,7 +13,7 @@ export default function NoteTaker() {
           />
         </div>
         <div className="App-Info-Text">
-          <h1>Note Taker</h1>
+          <h1 className="App-Title">Note Taker</h1>
           <p>
             A fully functional note taker app. The front end was provided, and
             the backend was completed by this developer.

@@ -13,10 +13,10 @@ export default function TechBlog() {
           />
         </div>
         <div className="App-Info-Text">
-          <h1>Tech Blog</h1>
+          <h1 className="App-Title">Tech Blog</h1>
           <p>
-            A full-stack developed blog. Users are able to sign in, create,
-            update, and delete posts and add new comments to existing posts.
+            A full-stack blog. Users are able to sign in, create, update, and
+            delete posts and add new comments to existing posts.
           </p>
           <p>Skills:</p>
           <div className="skillsTextDiv">

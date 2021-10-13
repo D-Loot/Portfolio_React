@@ -13,7 +13,7 @@ export default function WorkDayScheduler() {
           />
         </div>
         <div className="App-Info-Text">
-          <h1>Work Day Scheduler</h1>
+          <h1 className="App-Title">Work Day Scheduler</h1>
           <p>
             Saves the tasks submitted into each timeslot and displays a
             different color for each timeslot. (Current time: red; past: grey;
