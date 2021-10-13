@@ -19,13 +19,6 @@ function NavigationTabs({ currentPage, handlePageChange }) {
         Portfolio
       </p>
       <p
-        onClick={() => handlePageChange("Contact")}
-        className={currentPage === "Contact" ? "clicked" : "hover-text"}
-        id="tab"
-      >
-        Contact Me
-      </p>
-      <p
         // href="./assets/LOOTEN - RESUME.pdf"
         onClick={() => handlePageChange("Resume")}
         className={currentPage === "Resume" ? "clicked" : "hover-text"}
