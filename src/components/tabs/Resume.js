@@ -10,7 +10,7 @@ export default function Resume() {
       </h2>
       <h2 className="contentTitle resumeTitle">
         <a
-          href="https://docs.google.com/document/d/16xvD0Fz1ncAnAxguhnsA10qArZ5y4Qek48ayrvqZojs/edit?usp=sharing"
+          href="https://docs.google.com/document/d/1VPDRlpQoK4pqnU_fQi9fvZvUguOlTIhc/edit?usp=sharing&ouid=105653866858386592303&rtpof=true&sd=true"
           target="_blank"
           rel="noreferrer"
         >
