@@ -25,7 +25,7 @@ export default function WorkDayScheduler() {
             <p>BootStrap</p>
             <p>JavaScript</p>
             <p>moment.js</p>
-            <p>Local Storage</p>
+            <p>localStorage</p>
             <div className="link-border">
               <p>
                 <a

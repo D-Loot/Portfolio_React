@@ -23,8 +23,8 @@ export default function Spoons() {
           <div className="skillsTextDiv">
             <p>HTML</p>
             <p>JavaScript</p>
-            <p>Local Storage</p>
-            <p>API</p>
+            <p>localStorage</p>
+            <p>The Cat API</p>
             <p>moment.js</p>
             <p>GitHub</p>
             <div className="link-border">

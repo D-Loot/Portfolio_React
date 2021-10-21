@@ -23,7 +23,7 @@ export default function WeatherDashboard() {
             <p>JavaScript</p>
             <p>OpenWeatherMap API</p>
             <p>moment.js</p>
-            <p>Local Storage</p>
+            <p>localStorage</p>
             <div className="link-border">
               <p>
                 <a

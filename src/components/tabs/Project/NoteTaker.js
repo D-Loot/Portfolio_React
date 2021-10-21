@@ -21,9 +21,9 @@ export default function NoteTaker() {
           <p>Skills:</p>
           <div className="skillsTextDiv">
             <p>Heroku</p>
-            <p>NodeJS</p>
-            <p>ExpressJS</p>
-            <p>Express-Handlebars</p>
+            <p>Node.js</p>
+            <p>Express.js</p>
+            <p>Handlebars.js</p>
             <div className="link-border">
               <p>
                 <a

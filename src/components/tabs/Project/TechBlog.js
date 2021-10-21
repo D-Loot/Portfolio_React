@@ -21,10 +21,10 @@ export default function TechBlog() {
           <p>Skills:</p>
           <div className="skillsTextDiv">
             <p>Heroku</p>
-            <p>NodeJS</p>
+            <p>Node.js</p>
             <p>Sequelize</p>
-            <p>ExpressJS</p>
-            <p>Express-Handlebars</p>
+            <p>Express.js</p>
+            <p>Handlebars.js</p>
             <div className="link-border">
               <p>
                 <a
