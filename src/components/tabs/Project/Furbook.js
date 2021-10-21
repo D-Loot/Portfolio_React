@@ -7,7 +7,7 @@ export default function Furbook() {
       <div className="App-Info-inner">
         <div className="App-Info-Img">
           <img
-            src="./assets/images/furbook.png"
+            src="./assets/images/furbook.PNG"
             alt="Furbook Project"
             className="App-Info-Img-Init"
           />
