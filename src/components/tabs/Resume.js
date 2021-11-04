@@ -21,7 +21,7 @@ export default function Resume() {
         <div>
           <h3 className="resumeListTitle">Languages</h3>
           <ul className="resumeList">
-            <li>Javascript ES6+</li>
+            <li>JavaScript ES6+</li>
             <li>HTML5</li>
             <li>CSS3</li>
             <li>SQL</li>
