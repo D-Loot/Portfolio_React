@@ -6,11 +6,16 @@ export default function About() {
       <div>
         <h2 className="contentTitle">About Me</h2>
         <p>
-          Dan Looten Web Development offers expertise in both front-end and
-          back-end web development. <br /> <br />
-          If you are a small company looking for website online to host web
-          sales or a large corporation looking for back-end assistance, Dan
-          Looten Web Development can help you.
+          Full Stack Web Developer using a background in engineering and data
+          analysis to solve complex problems of all types. Recently earned a
+          certificate in Full Stack Development from the Washington University
+          of St. Louis and developed skills in JavaScript, CSS, React.js,
+          responsive web design, and GraphQL. Known for creative Front-End
+          design with mobile first designs and elaborate Back-End solutions
+          using modern GraphQL techniques. Each project is designed to provide
+          an accessible, pleasant, and memorable experience. Looking to bring my
+          attention to detail, communication skills, and technical skills to a
+          company to grow and become a valuable asset.
         </p>
       </div>
 
